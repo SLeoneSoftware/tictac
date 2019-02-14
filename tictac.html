@@ -1,0 +1,57 @@
+<body>
+  <link rel="stylesheet" type="text/css" href="tictac.css"/>
+  <p class = "title">
+    TIC TAC TOE
+  </p>
+  <header2 style = "display: block;">
+    <b  id = "xScore" class = "xMyTurn">
+      X: 0
+    </b>
+     <b class = "bx" onClick = "cPlayer()" style = " padding-left: 30px; padding-right: 30px;">
+      Who's turn?
+    </b>
+    <b id = "oScore" class = "oOpponentTurn">
+      O: 0
+    </b>
+  </header2>
+  <header>
+    <p></p>
+      </header>
+      <div class = "gameboard">
+        <header>
+          <button class = "xTurn" id = '00' onClick = "changeVal(id)"> </button>
+          <button class = "xTurn" id = "01" onClick = "changeVal(id)"> </button>
+          <button class = "xTurn" id = "02" onClick = "changeVal(id)"> </button>
+        </header>
+        <header>
+         <button class = "xTurn" id = "10" onClick = "changeVal(id)">
+          
+          </button>
+          <button class = "xTurn" id = "11" onClick = "changeVal(id)">
+          
+          </button>
+          <button class = "xTurn" id = "12" onClick = "changeVal(id)">
+          
+          </button>
+        </header>
+                <header>
+         <button class = "xTurn" id = "20" onClick = "changeVal(id)">
+          
+          </button>
+          <button class = "xTurn" id = "21" onClick = "changeVal(id)">
+          
+          </button>
+          <button class = "xTurn" id = "22" onClick = "changeVal(id)">
+          
+          </button>
+        </header>
+      </div>
+      <button onClick = "restartGame()" id = "restart" class = "restart"> Restart </button>
+      <p class = "winLabel" id = "winLabel"> Who will win? </p>
+      <div id = "deadFire" class="deadFire">
+  <div class="before"></div>
+  <div class="after"></div>
+</div>
+          <script src="tictac.js"></script>
+      </body>
+
